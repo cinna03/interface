@@ -1,6 +1,6 @@
 # Unity Interface Assignment – IShape Implementation
 
-## 📘 Overview
+##  Overview
 This project demonstrates the use of **interfaces in C# within Unity**.  
 A common interface `IShape` is defined and implemented by multiple shape classes.  
 Each shape provides its own logic for calculating area and perimeter while sharing the same method structure.
@@ -13,7 +13,7 @@ The project showcases:
 
 ---
 
-## 🧩 Interface Design
+##  Interface Design
 
 The `IShape` interface defines behaviors shared by all shapes:
 
@@ -25,7 +25,7 @@ All shape classes must implement these methods.
 
 ---
 
-## 🔷 Implemented Shapes
+##  Implemented Shapes
 
 The following classes implement the `IShape` interface:
 
@@ -40,7 +40,7 @@ Each class:
 
 ---
 
-## ▶️ Testing
+##  Testing
 
 Testing is performed in `InterfaceTestScript.cs`.
 
@@ -54,7 +54,7 @@ Circle | Area: 78.54 | Perimeter: 31.42
 Trapezium | Area: 15.00 | Perimeter: 16.00
 Nonagon | Area: 24.72 | Perimeter: 18.00
 
-## 🧠 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 - Interfaces in C#
 - Polymorphism
@@ -63,7 +63,7 @@ Nonagon | Area: 24.72 | Perimeter: 18.00
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 Assets/
 └── Scripts/
